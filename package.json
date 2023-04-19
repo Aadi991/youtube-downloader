@@ -1,0 +1,21 @@
+{
+	"name": "youtube-downloader-server",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "nodemon ./server.js localhost 4000",
+		"build": "webpack --config webpack.config.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.3",
+		"requirejs": "^2.3.6",
+		"ytdl-core": "^4.11.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
